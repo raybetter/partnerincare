@@ -7,5 +7,5 @@
 }
 
 .btn-orange {
-    @apply bg-ak-orange text-white hover:bg-ak-light-orange hover:text-black
+    @apply bg-ak-orange text-white hover:bg-ak-light-orange hover:text-black text-center
 }
