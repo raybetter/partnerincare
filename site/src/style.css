@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply shadow-md py-3 px-6 rounded-md transition duration-300
+}
+
+.btn-orange {
+    @apply bg-ak-orange text-white hover:bg-ak-light-orange hover:text-black
+}

@@ -1,0 +1,16 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:tailwinds": "npx tailwindcss -i src/style.css -o public/style.css",
+    "watch:tailwinds": "npx tailwindcss -i src/style.css -o public/style.css -wp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.6"
+  }
+}
