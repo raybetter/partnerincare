@@ -690,6 +690,10 @@ video {
   width: 80%;
 }
 
+.w-1\/12 {
+  width: 8.333333%;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -737,6 +741,10 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-clip {
+  overflow: clip;
 }
 
 .rounded-l-full {
@@ -981,6 +989,10 @@ video {
   .md\:justify-start {
     justify-content: flex-start;
   }
+
+  .md\:overflow-clip {
+    overflow: clip;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1018,6 +1030,10 @@ video {
 
   .lg\:w-full {
     width: 100%;
+  }
+
+  .lg\:w-2\/6 {
+    width: 33.333333%;
   }
 
   .lg\:flex-row {
